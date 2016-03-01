@@ -40,7 +40,7 @@ var monstruoImage = new Image();
 monstruoImage.onload = function () {
 	monstruoReady = true;
 };
-monstruoImage.src = "images/monster.png";
+monstruoImage.src = "images/goomba.ico";
 
 // stone image
 var piedraReady = false;
@@ -498,25 +498,25 @@ var render = function () {
 	}
 
 	//Nivel
-	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.fillStyle = "rgb(20,190,190)";
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Nivel: " + nivel, 372, 420);
 	//Vidas
-	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.fillStyle = "rgb(20,190,190)";
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Vidas: " + vidasCaught, 372, 32);
 	// Score
-	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.fillStyle = "rgb(20,190,190)";
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Princesas atrapadas: " + princessesCaught, 32, 32);
 	// Record
-	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.fillStyle = "rgb(20,190,190)";
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
