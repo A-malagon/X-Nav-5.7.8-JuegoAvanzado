@@ -40,7 +40,7 @@ var monstruoImage = new Image();
 monstruoImage.onload = function () {
 	monstruoReady = true;
 };
-monstruoImage.src = "images/goomba.png";
+monstruoImage.src = "images/goomba32.png";
 
 // stone image
 var piedraReady = false;
